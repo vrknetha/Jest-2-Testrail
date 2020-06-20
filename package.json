@@ -1,5 +1,5 @@
 {
-  "name": "@ravi/jest-2-testrail",
+  "name": "jest-2-testrail",
   "version": "1.0.8",
   "description": "Jest based reporter for creating a new run and sending test results to TestRail",
   "main": "JestReporter.js",
@@ -24,5 +24,9 @@
     "eslint": "^5.10.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vrknetha/Jest-2-Testrail.git"
   }
 }
