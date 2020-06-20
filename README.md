@@ -80,16 +80,7 @@ Also if you want to use API authentication instead of your password,
 <br>enable session authentication for API in the TestRail Site Settings,
 <br>and add an API key in your User settings _(This is recommended)_.
 
-## Authors
-
-| [<img src="https://avatars.githubusercontent.com/Slobo989" width="100px;"/><br /><sub><b>Slobodan Dušanić</b></sub>](https://github.com/Slobo989) | [<img src="https://avatars.githubusercontent.com/zeljkosimic95" width="100px;"/><br /><sub><b>Željko Simić</b></sub>](https://www.github.com/zeljkosimic95) |
-| ------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-
-
-## Special thanks
-
-| [<img src="https://avatars.githubusercontent.com/markoarsenal" width="100px;"/><br /><sub><b>Marko Rajević</b></sub>](https://github.com/markoarsenal) | [<img src="https://avatars.githubusercontent.com/phpoenix" width="100px;"/><br /><sub><b>Bogdan Petković</b></sub>](https://www.github.com/phpoenix) |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 
 ## License

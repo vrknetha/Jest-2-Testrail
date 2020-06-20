@@ -1,6 +1,5 @@
-{
-  "name": "@ravi/jest-testrail",
-  "version": "1.0.8",
+{   "name": "@vrknetha/jest-testrail",
+  "version": "1.0.1",
   "description": "Jest based reporter for creating a new run and sending test results to TestRail",
   "main": "JestReporter.js",
   "scripts": {
@@ -20,5 +19,10 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vrknetha/Jest-2-Testrail.git"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/vrknetha/Jest-2-Testrail/issues"
+  },
+  "homepage": "https://github.com/vrknetha/Jest-2-Testrail#readme",
+  "author": "Ravi Kiran"
 }

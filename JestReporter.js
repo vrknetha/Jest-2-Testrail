@@ -5,11 +5,11 @@ const stripAnsi = require('strip-ansi');
 
 let useTestRail = false;
 
-var myArgs = process.argv.slice(2);
+const myArgs = process.argv.slice(2);
 
+// eslint-disable-next-line array-callback-return
 myArgs.map((arg) => {
-  
-  if(arg === '--testrail') {
+  if (arg === '--testrail=true') {
     useTestRail = true;
   }
 });
@@ -38,7 +38,6 @@ class Reporter {
     this.caseids = [];
     this.testRailResults = [];
   }
-
 
 
   async createRun(projectId, suiteId) {
@@ -90,8 +89,7 @@ class Reporter {
   }
 
   onRunComplete(contexts, results) {
-
-    if (!useTestRail) { 
+    if (!useTestRail) {
       return;
     }
 
@@ -101,8 +99,9 @@ class Reporter {
       for (let i = 0; i < itResults.length; i += 1) {
         const result = itResults[i];
         const id = result.title.split(':')[0];
-        const idNum = id.replace(/\D/g,'');
+        const idNum = id.replace(/\D/g, '');
 
+        // eslint-disable-next-line no-restricted-globals
         if (isNaN(idNum)) {
           break;
         }
@@ -130,7 +129,7 @@ class Reporter {
             this.testRailResults.push({
               case_id: parseInt(idNum, 10),
               status_id: 1,
-              comment: 'Test passed successfully.'
+              comment: 'Test passed successfully.',
             });
             break;
 
