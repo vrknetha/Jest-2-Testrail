@@ -1,20 +1,11 @@
 {
-  "name": "jest-2-testrail",
+  "name": "@ravi/jest-2-testrail",
   "version": "1.0.8",
   "description": "Jest based reporter for creating a new run and sending test results to TestRail",
   "main": "JestReporter.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "jest",
-    "testrail",
-    "reporter",
-    "customreporter",
-    "testresults",
-    "testcases",
-    "testautomation"
-  ],
   "contributors": [
     {
       "name": "Slobodan Dusanic"
@@ -33,10 +24,5 @@
     "eslint": "^5.10.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0"
-  },
-  "homepage": "https://github.com/zeljkosimic95/Jest-2-Testrail",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zeljkosimic95/Jest-2-Testrail.git"
   }
 }
